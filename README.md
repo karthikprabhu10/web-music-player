@@ -9,6 +9,9 @@ This is a minimalist music player website developed using HTML, CSS, and JavaScr
 - View the cover image, song title, and artist name while listening to music.
 - Enjoy a visually pleasing and user-friendly interface.
 
+![image](https://github.com/karthikprabhu10/web-music-player/assets/108575187/5cdaa4b3-4c0b-499c-9568-0e872a63f6f8)
+
+
 ## Site Structure
 
 The site is structured as follows:
