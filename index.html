@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side-panel">
+            <h2>Playlist</h2>
+            <ul id="song-list">
+                <li data-src="song1.mp3" data-cover="1.webp" data-title="Rap God" data-artist="Artist 1" class="active">Rap God</li>
+                <li data-src="song2.mp3" data-cover="2.jpg" data-title="My Turn" data-artist="Artist 2">My Turn</li>
+                <li data-src="song3.mp3" data-cover="3.jpg" data-title="PARADISE" data-artist="Artist 3">PARADISE</li>
+            </ul>
+        </div>
+        <div class="music-player">
+            <img id="cover" src="cover1.jpg" alt="Song Cover">
+            <div class="song-info">
+                <h3 id="song-title">Song 1</h3>
+                <p id="artist-name">Artist 1</p>
+            </div>
+            <div class="controls">
+                <button id="prev"><i class="fas fa-backward"></i></button>
+                <button id="play-pause"><i class="fas fa-play"></i></button>
+                <button id="next"><i class="fas fa-forward"></i></button>
+            </div>
+        </div>
+    </div>
+    <p class="footer">Developed By <a href="https://karthikprabhu.vercel.app/"><b>KARTHIK</b></a></p>
+    <audio id="audio"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
