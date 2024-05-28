@@ -1,4 +1,4 @@
-# Music Player Website [![Netlify Status](https://api.netlify.com/api/v1/badges/9c967441-0c4e-4026-a720-55064a88ba13/deploy-status)](https://app.netlify.com/sites/webmusicpalyer/deploys)
+# Music Player Website [![Netlify Status](https://api.netlify.com/api/v1/badges/9c967441-0c4e-4026-a720-55064a88ba13/deploy-status)](https://webmusicpalyer.netlify.app/)
 
 This is a minimalist music player website developed using HTML, CSS, and JavaScript. The website features a sleek interface with intuitive controls for managing playlists and playing songs.
 
